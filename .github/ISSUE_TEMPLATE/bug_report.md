@@ -41,4 +41,4 @@ If applicable, add screenshots to help explain your problem. Tip: you can drag a
  - Version [e.g. 22]
 
 **Additional context**
-Add any other context about the problem here. Maybe indicate the piece of code that you think is causing the trouble, and your @slack if you wish to be contacted about doubts
+Add any other context about the problem here. Maybe indicate the piece of code that you think is causing the trouble, and your @ slack if you wish to be contacted about doubts
