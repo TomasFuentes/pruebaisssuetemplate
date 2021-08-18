@@ -21,7 +21,7 @@ Steps to reproduce the behavior:
 A clear and concise description of what you expected to happen.
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+If applicable, add screenshots to help explain your problem. Tip: you can drag and drop your image into this text editor (Attach files by dragging & dropping, selecting or pasting them.)
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
