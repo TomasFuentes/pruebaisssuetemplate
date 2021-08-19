@@ -1,0 +1,91 @@
+name: :bulb Feature request
+description: Suggest an idea for this project
+title: "[NEW] or [UPDATE]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to suggest new ideas!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: Your slack id ex. @johnDoe
+    validations:
+      required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      multiple: false
+      options:
+        - Critical
+        - Urgent
+        - Normal
+    validations:
+      required: true
+  - type: input
+    id: team
+    attributes:
+      label: Team & Project involved.
+      description: Team or project that you are working on.
+      placeholder: For example Merchant Tech, Stores Center.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: New or existing.
+      multiple: false
+      options:
+        - New component
+        - Existing component.
+    validations:
+      required: true
+  - type: input
+    id: component
+    attributes:
+      label: Component name
+      description: Write the existing component name or propose a new one.
+      placeholder: ex: <Table/>.
+    validations:
+      required: true
+  - type: text-area
+    id: solution
+    attributes:
+      label: Solution proposal
+      description: |
+         A clear and concise description of what you want to happen.
+         In case of a new component, describe the details that this component should consider,
+         specifying the technicals considerations and the scenarios that should be covered.
+    validations:
+      required: true
+  - type: text-area
+    id: reason
+    attributes:
+      label: Proposal reason
+      description: |
+         A clear and concise description of why do you think this component/feature has to be a chirimoya component.
+         You could indicate some examples, or reference projects that use, or will include, this component.
+    validations:
+      required: true
+  - type: input
+    id: problem
+    attributes:
+      label: Problem related?
+      description: Is your feature request related to a problem?. Please describe
+      placeholder: A clear and concise description of what the problem is.
+      value: Ex. I'm always frustrated when [...]
+    validations:
+      required: false
+  - type: textarea
+    id: aditional-context
+    attributes:
+      label: Additional context
+      description: |
+        Add any other context or screenshots about the feature request here.
+        Describe alternatives you've considered.
+      value: Tip: you can drag and drop your image into this text editor (Attach files by dragging & dropping, selecting or pasting them.).
+    validations:
+      required: false
