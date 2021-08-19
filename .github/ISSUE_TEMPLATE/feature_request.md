@@ -11,9 +11,9 @@ assignees: ''
 Write the existing component name or propose a new one.
 
 **Urgency level**
-- [ ] critical
-- [ ] urgent
-- [ ] normal
+[ ] critical
+[ ] urgent
+[x] normal
 
 **Is your feature request related to a problem?. Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
