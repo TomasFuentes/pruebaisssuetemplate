@@ -48,7 +48,7 @@ body:
     attributes:
       label: Component name
       description: Write the existing component name or propose a new one.
-      placeholder: ex: <Table/>.
+      placeholder: <Table/>.
     validations:
       required: true
   - type: text-area
