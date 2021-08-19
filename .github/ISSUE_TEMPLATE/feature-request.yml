@@ -1,4 +1,4 @@
-name: :bulb Feature request
+name: 💡 Feature request
 description: Suggest an idea for this project
 title: "[NEW] or [UPDATE]: "
 labels: [enhancement]
@@ -86,6 +86,6 @@ body:
       description: |
         Add any other context or screenshots about the feature request here.
         Describe alternatives you've considered.
-      value: Tip: you can drag and drop your image into this text editor (Attach files by dragging & dropping, selecting or pasting them.).
+      value: Tip. you can drag and drop your image into this text editor (Attach files by dragging & dropping, selecting or pasting them.).
     validations:
       required: false
