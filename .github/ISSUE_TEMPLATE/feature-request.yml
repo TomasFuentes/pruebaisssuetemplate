@@ -51,7 +51,7 @@ body:
       placeholder: <Table/>.
     validations:
       required: true
-  - type: text-area
+  - type: textarea
     id: solution
     attributes:
       label: Solution proposal
@@ -61,7 +61,7 @@ body:
          specifying the technicals considerations and the scenarios that should be covered.
     validations:
       required: true
-  - type: text-area
+  - type: textarea
     id: reason
     attributes:
       label: Proposal reason
